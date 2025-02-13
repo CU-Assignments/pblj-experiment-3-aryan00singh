@@ -57,11 +57,11 @@ public static void main(String[] args) {
 
 // Example FD account
 
-FixedDeposit fd = new FixedDeposit("Sakshi", 100000, 5.5, 3); System.out.println("Fixed Deposit Details:"); fd.displayDetails();
+FixedDeposit fd = new FixedDeposit("Aryan", 100000, 5.5, 3); System.out.println("Fixed Deposit Details:"); fd.displayDetails();
 System.out.println();
  
 
-RecurringDeposit rd = new RecurringDeposit("Sakshi_22BCS11571", 5000, 6.5, 12); System.out.println("Recurring Deposit Details:");
+RecurringDeposit rd = new RecurringDeposit("Aryan_22BCS10866", 5000, 6.5, 12); System.out.println("Recurring Deposit Details:");
 rd.displayDetails();
 
 }
